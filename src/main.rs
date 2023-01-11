@@ -1,5 +1,4 @@
-extern crate core;
-extern crate core;
+
 
 use crate::general::two_sum;
 use crate::sort::heap_sort::heap_sort;
@@ -9,6 +8,9 @@ pub mod data_structures;
 pub mod general;
 pub mod search;
 pub mod sort;
+
+pub mod leetcode;
+
 
 fn main() {
     println!("Hello, world!");
